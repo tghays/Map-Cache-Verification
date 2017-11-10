@@ -1,9 +1,10 @@
 # Map-Cache-Verification
 A tool to create a compound image of a Tile Cache Service to verify the integrity of cached images.  This script utilizes the Python Imaging Library to combine each tile image.
 
-This script iterates through the URL's of a Tile Cache Service and combines the images into a single large image to verify the integrity of each tile.
-![This is where an picture should be. Sorry you can't see it. Try using Chrome](L13.png "Anson County 2ft and 5 ft Tile Contours")
+The verifyTileCache.py script iterates through the URL's of a Tile Cache Service and combines the images into a single large image to verify the integrity of each tile.  Also included is the visualizeTiles.py script which utilizes the Selenium Python library to iterate through tiles in a Tile Cache Service and quickly show the user the contents of each tile image for a given tile level.
 
+![This is where an picture should be. Sorry you can't see it. Try using Chrome](L13.png "Anson County 2ft and 5 ft Tile Contours")
+script which utilizes the Selenium Python library to iterate through tiles in a Tile Cache Service and quickly show the user the contents of each tile image for a given tile level.
 
 ## How it Works
 The user needs to specify the start URL and the end URL, which are listed for a given tile level on the REST endpoint of the Tile Cache Service:
